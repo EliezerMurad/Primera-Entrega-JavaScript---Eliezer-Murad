@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    margin: 0 auto;
+}
+
+.titulo {
+    font-size: 50px;
+    margin-top: 80px;
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+.subtitulo {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.btnComenzar {
+    border-radius: 20px;
+    padding: 5px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px blueviolet;
+}
+
+
+
+.alinear {
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.btnComenzar:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: violet;
+}
